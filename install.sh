@@ -1,5 +1,19 @@
-echo "title   Arch Linux
-linux   /vmlinuz-linux
-initrd  /intel-ucode.img
-initrd  /initramfs-linux.img
-options root=UUID=7bc17951-50af-4232-b078-d99990fcf78 rw" >> /boot/loader/entries/arch.conf
+pacman -S wpa_supplicant
+echo "[Match]
+Name=enp4s0
+
+[Network]
+DHCP=yes
+
+[DHCP]
+RouteMetric=10" > /etc/systemd/network/20-wired.network
+
+echo "[Match]
+Name=wlan0
+
+[Network]
+DHCP=yes
+
+[DHCP]
+RouteMetric=20" > /etc/systemd/network/25-wireless.network
+systemctl enable systemd-networkd.service
