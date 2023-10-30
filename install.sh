@@ -1,19 +1,3 @@
-pacman -S wpa_supplicant
-echo "[Match]
-Name=enp4s0
-
-[Network]
-DHCP=yes
-
-[DHCP]
-RouteMetric=10" > /etc/systemd/network/20-wired.network
-
-echo "[Match]
-Name=wlan0
-
-[Network]
-DHCP=yes
-
-[DHCP]
-RouteMetric=20" > /etc/systemd/network/25-wireless.network
-systemctl enable systemd-networkd.service
+os-prober
+grub-mkconfig -o /boot/grub/grub.cfg
+grub-install --target=x86_64-efi --efi-directory=/boot/efi --bootloader-id=GRUB
