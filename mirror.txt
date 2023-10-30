@@ -1,1 +1,21 @@
-
+Server = https://mirror.cyberbits.eu/archlinux/$repo/os/$arch
+Server = https://mirrors.eric.ovh/arch/$repo/os/$arch
+Server = https://mirrors.gandi.net/archlinux/$repo/os/$arch
+Server = https://archmirror.hogwarts.fr/$repo/os/$arch
+Server = https://mirror.ibakerserver.pt/Arch/$repo/os/$arch
+Server = https://mirror.its-tps.fr/archlinux/$repo/os/$arch
+Server = https://mirror.jordanrey.me/archlinux/$repo/os/$arch
+Server = https://mirrors.jtremesay.org/archlinux/$repo/os/$arch
+Server = https://arch.juline.tech/$repo/os/$arch
+Server = https://mirroir.labhouse.fr/arch/$repo/os/$arch
+Server = https://archlinux.mailtunnel.eu/$repo/os/$arch
+Server = https://mirrors.celianvdb.fr/archlinux/$repo/os/$arch
+Server = https://arch.nimukaito.net/$repo/os/$arch
+Server = https://mirror.oldsql.cc/archlinux/$repo/os/$arch
+Server = https://mirror.spaceint.fr/archlinux/$repo/os/$arch
+Server = https://mirror.sysa.tech/archlinux/$repo/os/$arch
+Server = https://mirror.thekinrar.fr/archlinux/$repo/os/$arch
+Server = https://mirror.theo546.fr/archlinux/$repo/os/$arch
+Server = https://mirror.wormhole.eu/archlinux/$repo/os/$arch
+Server = https://mirroir.wptheme.fr/archlinux/$repo/os/$arch
+Server = https://arch.yourlabs.org/$repo/os/$arch
